@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB327E2223491A7FF9A9A8A1FDBA67D /* Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A75CCD00E47320CBE7959F39A4453B0 /* Delegate.swift */; };
+		141EEC1C9A5B78A985D2E8A001E25CD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		207C84743FE7C82BCC63DFDC1C27D80A /* TransitionContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABB7ABB322665A283A5BF3611ECE8E77 /* TransitionContext.swift */; };
+		23F2720A4168CAD9ADD9EDF5A6438497 /* Preferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5A9A38B057080F349726671B6EE8AC /* Preferences.swift */; };
+		331E92669A5C7A8B36B4E1329E288E34 /* Segue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCA37B7B736DDEC7EC44D653018F1684 /* Segue.swift */; };
+		3393F2A5744BAF2A3B8E8F25F20D29AB /* SideMenuSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02BFF436608AB25AA8CCE90D459F8CFA /* SideMenuSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		467F8F1CBD7C6CA5EE431B2E01F22227 /* StatusBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FA43C333FA7079A1C12582090699CA4 /* StatusBar.swift */; };
+		470462F2FD9D87D2E29D3EACF1902E04 /* Pods-LKHomeCost-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C2FE9B5C1DC2E43ACF51CBEAE2786E9 /* Pods-LKHomeCost-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48A6A72E28762A18E4609864075FF9AC /* SideMenuSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA4118A30984EC2340CFBD40BEEED8D /* SideMenuSwift-dummy.m */; };
+		4E5BD4403829B8607F8C5777E937BA2E /* BasicTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9877D2F70C24A38303DBE4237788035 /* BasicTransitionAnimator.swift */; };
+		68D050EDE1B4CF2D6114EA660447C41C /* Pods-LKHomeCost-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C1056605293ADA1C79D8DEAAE20BC8 /* Pods-LKHomeCost-dummy.m */; };
+		8D7E528DC9BB42437F8ED4B2BD410FAE /* UIViewController+SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CC13087921FAB377864088C690E3404 /* UIViewController+SideMenu.swift */; };
+		9EA4F8BFC05AE48B88B7E7925116734E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A54E7DB163A4617D92401B596F4487CA /* SideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97D1335BCD058233817534C1056C05A2 /* SideMenuController.swift */; };
+		B9220D02A5299E366EC0C766B062E45F /* SideMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 558A08A2EC8671E635853CA334E786A8 /* SideMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDD98EEA92CFC6BB90D2E33B04466811 /* UIView+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12BDD655FBFA6811CEFEC1A8029168BF /* UIView+Container.swift */; };
+		D6B18C75D23CCC757E7FED786AC0480D /* UIViewController+Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A6C7C5AA3EBB025A7AE37B75E28CDD /* UIViewController+Container.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED79B19B4D134FCA419A66B840403DD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 873002DBC460B8090EFD7E391AA04141;
+			remoteInfo = SideMenuSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02BFF436608AB25AA8CCE90D459F8CFA /* SideMenuSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuSwift-umbrella.h"; sourceTree = "<group>"; };
+		0A75CCD00E47320CBE7959F39A4453B0 /* Delegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Delegate.swift; path = Sources/SideMenu/Delegate.swift; sourceTree = "<group>"; };
+		0E16E5A334C7245BCA925795812A3AF7 /* Pods-LKHomeCost-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LKHomeCost-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12BDD655FBFA6811CEFEC1A8029168BF /* UIView+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Container.swift"; path = "Sources/SideMenu/UIView+Container.swift"; sourceTree = "<group>"; };
+		1EFABE09C5AA7711A806F17A67938AAD /* Pods-LKHomeCost-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LKHomeCost-frameworks.sh"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3CC13087921FAB377864088C690E3404 /* UIViewController+SideMenu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+SideMenu.swift"; path = "Sources/SideMenu/UIViewController+SideMenu.swift"; sourceTree = "<group>"; };
+		488D02B5BDEB34F9FB06D67FE40A31C5 /* Pods-LKHomeCost-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKHomeCost-acknowledgements.plist"; sourceTree = "<group>"; };
+		558A08A2EC8671E635853CA334E786A8 /* SideMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SideMenu.h; path = Sources/SideMenu/SideMenu.h; sourceTree = "<group>"; };
+		56A6C7C5AA3EBB025A7AE37B75E28CDD /* UIViewController+Container.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Container.swift"; path = "Sources/SideMenu/UIViewController+Container.swift"; sourceTree = "<group>"; };
+		5AD13D73A189B1C495B649D071AC077D /* SideMenuSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SideMenuSwift.modulemap; sourceTree = "<group>"; };
+		6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SideMenuSwift.framework; path = SideMenuSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D09CEE4E39FC11E23FA0D23010E3E4 /* Pods-LKHomeCost-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LKHomeCost-Info.plist"; sourceTree = "<group>"; };
+		7FA43C333FA7079A1C12582090699CA4 /* StatusBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatusBar.swift; path = Sources/SideMenu/StatusBar.swift; sourceTree = "<group>"; };
+		8AC7AF39944B03FF371638505C288642 /* Pods-LKHomeCost.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LKHomeCost.modulemap"; sourceTree = "<group>"; };
+		97D1335BCD058233817534C1056C05A2 /* SideMenuController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SideMenuController.swift; path = Sources/SideMenu/SideMenuController.swift; sourceTree = "<group>"; };
+		9C2FE9B5C1DC2E43ACF51CBEAE2786E9 /* Pods-LKHomeCost-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LKHomeCost-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A944205D4FA17144A342C896C15BCEA8 /* SideMenuSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SideMenuSwift-prefix.pch"; sourceTree = "<group>"; };
+		ABB7ABB322665A283A5BF3611ECE8E77 /* TransitionContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TransitionContext.swift; path = Sources/SideMenu/TransitionContext.swift; sourceTree = "<group>"; };
+		BCA4118A30984EC2340CFBD40BEEED8D /* SideMenuSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SideMenuSwift-dummy.m"; sourceTree = "<group>"; };
+		CBE83E573CE70366186F1FC378FF46B5 /* SideMenuSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SideMenuSwift-Info.plist"; sourceTree = "<group>"; };
+		CFC06D3495620D0A3D4EC0892A109027 /* Pods-LKHomeCost.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKHomeCost.debug.xcconfig"; sourceTree = "<group>"; };
+		D2C1056605293ADA1C79D8DEAAE20BC8 /* Pods-LKHomeCost-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LKHomeCost-dummy.m"; sourceTree = "<group>"; };
+		D50195E3F4DB46527A19C95E9214DB43 /* Pods_LKHomeCost.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LKHomeCost.framework; path = "Pods-LKHomeCost.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DBB54F88EED6644A685C286064CE2716 /* Pods-LKHomeCost.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LKHomeCost.release.xcconfig"; sourceTree = "<group>"; };
+		DCA37B7B736DDEC7EC44D653018F1684 /* Segue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Segue.swift; path = Sources/SideMenu/Segue.swift; sourceTree = "<group>"; };
+		E881D2464213267365DD3EBA80A7E804 /* SideMenuSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SideMenuSwift.xcconfig; sourceTree = "<group>"; };
+		EE5A9A38B057080F349726671B6EE8AC /* Preferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Preferences.swift; path = Sources/SideMenu/Preferences.swift; sourceTree = "<group>"; };
+		F9877D2F70C24A38303DBE4237788035 /* BasicTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BasicTransitionAnimator.swift; path = Sources/SideMenu/BasicTransitionAnimator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A200DAF4321DD0A7CD75F25053FF5611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9EA4F8BFC05AE48B88B7E7925116734E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C89F618AEB0B45BCDEAE21A646627FC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				141EEC1C9A5B78A985D2E8A001E25CD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E9302C6C8734422155D0E80FE9919DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D50195E3F4DB46527A19C95E9214DB43 /* Pods_LKHomeCost.framework */,
+				6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		509FA2A4EEFA2FB7502FE01C2BE70714 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E3168AB04E17A994D0BC98AE42048D9F /* SideMenuSwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		900E5A17D66D45152BB23CC2566CA70F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AD13D73A189B1C495B649D071AC077D /* SideMenuSwift.modulemap */,
+				E881D2464213267365DD3EBA80A7E804 /* SideMenuSwift.xcconfig */,
+				BCA4118A30984EC2340CFBD40BEEED8D /* SideMenuSwift-dummy.m */,
+				CBE83E573CE70366186F1FC378FF46B5 /* SideMenuSwift-Info.plist */,
+				A944205D4FA17144A342C896C15BCEA8 /* SideMenuSwift-prefix.pch */,
+				02BFF436608AB25AA8CCE90D459F8CFA /* SideMenuSwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SideMenuSwift";
+			sourceTree = "<group>";
+		};
+		94B08C9C02BCA04563C4FE00C0BEA1CA /* Pods-LKHomeCost */ = {
+			isa = PBXGroup;
+			children = (
+				8AC7AF39944B03FF371638505C288642 /* Pods-LKHomeCost.modulemap */,
+				0E16E5A334C7245BCA925795812A3AF7 /* Pods-LKHomeCost-acknowledgements.markdown */,
+				488D02B5BDEB34F9FB06D67FE40A31C5 /* Pods-LKHomeCost-acknowledgements.plist */,
+				D2C1056605293ADA1C79D8DEAAE20BC8 /* Pods-LKHomeCost-dummy.m */,
+				1EFABE09C5AA7711A806F17A67938AAD /* Pods-LKHomeCost-frameworks.sh */,
+				78D09CEE4E39FC11E23FA0D23010E3E4 /* Pods-LKHomeCost-Info.plist */,
+				9C2FE9B5C1DC2E43ACF51CBEAE2786E9 /* Pods-LKHomeCost-umbrella.h */,
+				CFC06D3495620D0A3D4EC0892A109027 /* Pods-LKHomeCost.debug.xcconfig */,
+				DBB54F88EED6644A685C286064CE2716 /* Pods-LKHomeCost.release.xcconfig */,
+			);
+			name = "Pods-LKHomeCost";
+			path = "Target Support Files/Pods-LKHomeCost";
+			sourceTree = "<group>";
+		};
+		A6F700BE369BC6CDCA2BE6569193DEE1 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				94B08C9C02BCA04563C4FE00C0BEA1CA /* Pods-LKHomeCost */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				509FA2A4EEFA2FB7502FE01C2BE70714 /* Pods */,
+				3E9302C6C8734422155D0E80FE9919DB /* Products */,
+				A6F700BE369BC6CDCA2BE6569193DEE1 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3168AB04E17A994D0BC98AE42048D9F /* SideMenuSwift */ = {
+			isa = PBXGroup;
+			children = (
+				F9877D2F70C24A38303DBE4237788035 /* BasicTransitionAnimator.swift */,
+				0A75CCD00E47320CBE7959F39A4453B0 /* Delegate.swift */,
+				EE5A9A38B057080F349726671B6EE8AC /* Preferences.swift */,
+				DCA37B7B736DDEC7EC44D653018F1684 /* Segue.swift */,
+				558A08A2EC8671E635853CA334E786A8 /* SideMenu.h */,
+				97D1335BCD058233817534C1056C05A2 /* SideMenuController.swift */,
+				7FA43C333FA7079A1C12582090699CA4 /* StatusBar.swift */,
+				ABB7ABB322665A283A5BF3611ECE8E77 /* TransitionContext.swift */,
+				12BDD655FBFA6811CEFEC1A8029168BF /* UIView+Container.swift */,
+				56A6C7C5AA3EBB025A7AE37B75E28CDD /* UIViewController+Container.swift */,
+				3CC13087921FAB377864088C690E3404 /* UIViewController+SideMenu.swift */,
+				900E5A17D66D45152BB23CC2566CA70F /* Support Files */,
+			);
+			name = SideMenuSwift;
+			path = SideMenuSwift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		41585503A7948D9998183BD45401D69F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				470462F2FD9D87D2E29D3EACF1902E04 /* Pods-LKHomeCost-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94311070A2850EC97BC6D5B89FAD2E5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9220D02A5299E366EC0C766B062E45F /* SideMenu.h in Headers */,
+				3393F2A5744BAF2A3B8E8F25F20D29AB /* SideMenuSwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 285C963712D29FD9C44041632F236A16 /* Build configuration list for PBXNativeTarget "SideMenuSwift" */;
+			buildPhases = (
+				94311070A2850EC97BC6D5B89FAD2E5A /* Headers */,
+				A2CAA0A72D6350C9DCB93FCC586DBA43 /* Sources */,
+				A200DAF4321DD0A7CD75F25053FF5611 /* Frameworks */,
+				27EF8C731772A136BCF4DE084247279A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SideMenuSwift;
+			productName = SideMenuSwift;
+			productReference = 6642040CCC4CD7F37093C2AA4F7FB304 /* SideMenuSwift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BB1583ED0F56784FE5205E963BF111CA /* Pods-LKHomeCost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A13F4348A0B9D44ACBB83B9E52467106 /* Build configuration list for PBXNativeTarget "Pods-LKHomeCost" */;
+			buildPhases = (
+				41585503A7948D9998183BD45401D69F /* Headers */,
+				9E29E1FED04460CD40A6FA248D8A81F3 /* Sources */,
+				C89F618AEB0B45BCDEAE21A646627FC1 /* Frameworks */,
+				55DCDFDE9ED9C10715B7F2B9473C2003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				37115B65353C5EAB525EB4BA0E8B28B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-LKHomeCost";
+			productName = "Pods-LKHomeCost";
+			productReference = D50195E3F4DB46527A19C95E9214DB43 /* Pods_LKHomeCost.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 3E9302C6C8734422155D0E80FE9919DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB1583ED0F56784FE5205E963BF111CA /* Pods-LKHomeCost */,
+				873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27EF8C731772A136BCF4DE084247279A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55DCDFDE9ED9C10715B7F2B9473C2003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E29E1FED04460CD40A6FA248D8A81F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68D050EDE1B4CF2D6114EA660447C41C /* Pods-LKHomeCost-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2CAA0A72D6350C9DCB93FCC586DBA43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E5BD4403829B8607F8C5777E937BA2E /* BasicTransitionAnimator.swift in Sources */,
+				0DB327E2223491A7FF9A9A8A1FDBA67D /* Delegate.swift in Sources */,
+				23F2720A4168CAD9ADD9EDF5A6438497 /* Preferences.swift in Sources */,
+				331E92669A5C7A8B36B4E1329E288E34 /* Segue.swift in Sources */,
+				A54E7DB163A4617D92401B596F4487CA /* SideMenuController.swift in Sources */,
+				48A6A72E28762A18E4609864075FF9AC /* SideMenuSwift-dummy.m in Sources */,
+				467F8F1CBD7C6CA5EE431B2E01F22227 /* StatusBar.swift in Sources */,
+				207C84743FE7C82BCC63DFDC1C27D80A /* TransitionContext.swift in Sources */,
+				CDD98EEA92CFC6BB90D2E33B04466811 /* UIView+Container.swift in Sources */,
+				D6B18C75D23CCC757E7FED786AC0480D /* UIViewController+Container.swift in Sources */,
+				8D7E528DC9BB42437F8ED4B2BD410FAE /* UIViewController+SideMenu.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37115B65353C5EAB525EB4BA0E8B28B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SideMenuSwift;
+			target = 873002DBC460B8090EFD7E391AA04141 /* SideMenuSwift */;
+			targetProxy = ED79B19B4D134FCA419A66B840403DD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0DCDE967F1F322B795DC8472F92BC5D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFC06D3495620D0A3D4EC0892A109027 /* Pods-LKHomeCost.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKHomeCost/Pods-LKHomeCost-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKHomeCost/Pods-LKHomeCost.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		21DB4C391A7A8E106885D7DF21B68756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBB54F88EED6644A685C286064CE2716 /* Pods-LKHomeCost.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LKHomeCost/Pods-LKHomeCost-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LKHomeCost/Pods-LKHomeCost.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2A9E11B6FD139D3DCB68CB653E655799 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E881D2464213267365DD3EBA80A7E804 /* SideMenuSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuSwift/SideMenuSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift.modulemap";
+				PRODUCT_MODULE_NAME = SideMenuSwift;
+				PRODUCT_NAME = SideMenuSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		82F6B667957E5D082D4BCC829BD2D469 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E881D2464213267365DD3EBA80A7E804 /* SideMenuSwift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SideMenuSwift/SideMenuSwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SideMenuSwift/SideMenuSwift.modulemap";
+				PRODUCT_MODULE_NAME = SideMenuSwift;
+				PRODUCT_NAME = SideMenuSwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A27713CB74E99AF202AADC23200A32F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285C963712D29FD9C44041632F236A16 /* Build configuration list for PBXNativeTarget "SideMenuSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A9E11B6FD139D3DCB68CB653E655799 /* Debug */,
+				82F6B667957E5D082D4BCC829BD2D469 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6410F571BA8C1AEC6A19403F1B61B0B5 /* Debug */,
+				A27713CB74E99AF202AADC23200A32F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A13F4348A0B9D44ACBB83B9E52467106 /* Build configuration list for PBXNativeTarget "Pods-LKHomeCost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0DCDE967F1F322B795DC8472F92BC5D4 /* Debug */,
+				21DB4C391A7A8E106885D7DF21B68756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
